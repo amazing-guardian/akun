@@ -1,0 +1,22 @@
+Your Account Details
+
+Your account is now active.
+
+Main Hosting Details
+
+Control panel username		b17_21224144
+Control panel password 		0809894kali
+Control panel URL			cpanel.byethost17.com
+
+MySQL hostname				sql202.byethost17.com
+Database					b17_21224144_psikoweb
+MySQL username				b17_21224144
+MySQL password				0809894kali
+
+FTP username				b17_21224144
+FTP password				0809894kali
+FTP host name 				ftp.byethost17.com	
+
+Your Website URL's
+
+Home page					http://mzaini30.byethost17.com

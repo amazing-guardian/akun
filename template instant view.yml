@@ -1,0 +1,25 @@
+body: //div[has-class("entry-content")]
+title: //h1[has-class("entry-title")]
+
+# gambar pertama jadi cover
+
+cover: $body//img[1]
+
+# Set cover image di Telegram
+
+@set_attr(src, @data-src): //img
+image_url: $cover/self::img/@src
+
+# Remove Elemen yang tidak penting
+
+# @remove: //div[has-class("td-post-author-name")]//a
+
+# Replace tabel karena belum disupport
+
+@replace_tag(<pre>): $body//table
+
+# link join channel
+
+@append(<p>): $body
+@append(<a>, href, "http://t.me/info_lomba"): $@
+@append("Join Channel Info Lomba"): $@
